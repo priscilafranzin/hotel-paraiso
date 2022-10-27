@@ -4,7 +4,7 @@
     padding: 0;
     font-size: 100%;
     box-sizing: border-box ;
-    font-family: 'opens sana', sans-serif ;
+    font-family: 'open sans', sans-serif ;
 }
 
 nav, ul {
@@ -116,14 +116,13 @@ flex-direction: column;
     padding: 100px 50px;
 }
 .conheça-o-hotel h3 {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-bottom: 35px;
-    background-color: #191c03;
+    text-align: center;
 }
 .conheça-o-hotel p {
     max-width: 800px;
     margin-bottom: 15px;
-    background-color: #191c03;
     text-align: center;
 }
 .conheça-o-hotel hr {
@@ -159,3 +158,59 @@ flex-direction: column;
     }
 }
 
+/*caracteristicas*/
+.caracteristicas {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #191c03;
+}
+.caracteristicasl h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+    color:#fff
+}
+.caracteristicas p {
+    max-width: 800px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:#fff
+}
+.caracteristicas hr {
+    width: 200px;
+    height: 2px;
+    background-color:#fff;
+    margin-bottom: 70px;
+    border: none;
+}
+.caracteristicas .grid{
+    width: 100%;
+    display:flex;
+}
+
+.caracteristicas .grid li {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.caracteristicas .gri li i {
+    color:#c3c63b;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.caracteristicas .gri li h4 {
+    font-size: 1.5rem;
+    color:#c3c63b;
+    margin-bottom: 30px;
+}
+
+.caracteristicas .gri li p {
+    color:#fff;
+}
+
+@media (max-width: 850px) {
+.caracteristicas .gri {flex-direction: column;}
+}
